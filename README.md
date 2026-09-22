@@ -13,7 +13,7 @@ No needs a VPN, external software or plugins. Just follow this steps and be happ
     {},
     r => r
   ]);
-  webpackChunkDiscord_app.pop();
+  webpackChunkdiscord_app.pop();
 
   const dispatcher = Object.values(req.c)
     .flatMap(m => {
@@ -27,7 +27,7 @@ No needs a VPN, external software or plugins. Just follow this steps and be happ
       typeof x === "object" &&
       typeof x.dispatch === "function" &&
       x._actionHandlers &&
-      x._actionHJandlers._orderedActionHandlers
+      x._actionHandlers._orderedActionHandlers
     );
 
   if (!dispatcher)
@@ -37,7 +37,7 @@ No needs a VPN, external software or plugins. Just follow this steps and be happ
     type: "APEX_EXPERIMENT_OVERRIDE_CREATE",
     experimentName: "2026-08-video-guard",
     variantId: -1
-  })
+  });
 
   console.log("Allowed by Yagasaki7K");
 })();
